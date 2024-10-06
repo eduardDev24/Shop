@@ -18,9 +18,10 @@
     <div class="alert alert-info display-1 text-center">DJANGO SHOP</div>
     <div class="alert alert-dark display-3">{{ titulo }}</div>
     <div class="row">
-        <div class="col"><a href="#" class="btn p-3 btn-success w-100">{{ producto1 }}</a></div>
-        <div class="col"><a href="#" class="btn p-3 btn-success w-100">{{ producto2 }}</a></div>
-        <div class="col"><a href="#" class="btn p-3 btn-success w-100">{{ producto3 }}</a></div>
+        <div class="col"><a href="#" class="btn p-3 btn-success w-100"><img class="img" src="{% static 'images/product_default.png' %}" width="100px"><br>{{ producto1 }}</a></div>
+        
+        <div class="col"><a href="#" class="btn p-3 btn-success w-100"><img class="img" src="{% static 'images/product_default.png' %}" width="100px"><br>{{ producto2 }}</a></div>
+        <div class="col"><a href="#" class="btn p-3 btn-success w-100"><img class="img" src="{% static 'images/product_default.png' %}" width="100px"><br> {{ producto3 }}</a></div>
     </div>
 
     <a href="/" class="btn btn-info mt-5">VOLVER</a>
